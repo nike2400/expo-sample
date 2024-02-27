@@ -1,0 +1,57 @@
+▪️ Signup for Expo and install Expo Go onto your mobile
+https://expo.dev/
+
+▪️　Install and setup Expo
+npm install -g expo-cli
+expo init your_mobile_project
+
+Select "Blank" and press the enter. Then the mobile upp project will start automatically
+> Choose a template:
+> blank               a minimal app as clean as an empty canvas
+
+cd your_mobile_project
+npm install expo@49 react@18.1.0 react-native@0.70.8
+
+▪️ Activate/Deacrtivate Expo
+Activate: expo start
+Deactivate: Contorl + c
+
+**** Once you activate Expo, then the message like below shows up. Please open your Expo Go app or just read the QRcode and tap your project to see the mobile app you are working on.
+**** When you edit a file, for example App.js, and save it, the change will be reflected automatically and can be seen on the Expo Go immediately. 
+**** Unfortunateluy, Expo go doesn't work sometimes because of the network setting of Wifi or Security software. When I tried to use Expo go in a library using a free wifi, it never worked. 
+**** Hopefully, it works without any trouble in your home. At least, it's working in my home. haha
+**** There's other way to see your mobile app just like I showed you guys my mobile app in my laptop before but it's too much work and hard to explain how to set it up lol 
+
+[The messasage that appears when you activate Expo]
+It looks like you're trying to use web support but don't have the required dependencies installed. Would you like to install react-native-web, react-dom? › (Y/n)Started Metro Bundler
+
+Starting Metro Bundler
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █▄▄▄ ▀ ▀█ █ ▄▄▄▄▄ █
+█ █   █ ██▄▀ █   ▄█ █   █ █
+█ █▄▄▄█ ██▀▄ ▄ ████ █▄▄▄█ █
+█▄▄▄▄▄▄▄█ ▀▄█ ▀ █▄█▄▄▄▄▄▄▄█
+█▄ ▀▄▄▀▄▀█▄▀█▄██ ▀▀▄█▀█▀▀▄█
+██▄▄▄ ▄▄ ▄▄██▄█  █ ▄▀▀▄▀▀ █
+█  █ ▄▀▄▄▄▄ █▀█▄▀▄ ▄ ▀█▀ ██
+█ ▄▄▄▀▀▄█▀███▀▄█▄▀█ ▄▀▄▀  █
+█▄█▄▄██▄▄▀▀  ▄▄ ▀ ▄▄▄  ▄▀▄█
+█ ▄▄▄▄▄ ██▀ ▀▄  █ █▄█ ███ █
+█ █   █ █ ▀█▄ ██  ▄  ▄ █▀▀█
+█ █▄▄▄█ █▀▀▄  █▄ █▄█▀▄█   █
+█▄▄▄▄▄▄▄█▄█▄▄██▄▄▄▄█▄▄███▄█
+
+› Metro waiting on exp://10.20.19.191:19000
+› Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
+
+› Press a │ open Android
+› Press i │ open iOS simulator
+› Press w │ open web
+
+› Press r │ reload app
+› Press m │ toggle menu
+
+› Press ? │ show all commands
+
+Logs for your project will appear below. Press Ctrl+C to exit.
+Started Metro Bundler
