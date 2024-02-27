@@ -5,7 +5,7 @@ https://expo.dev/
 npm install -g expo-cli
 expo init your_mobile_project
 
-Select "Blank" and press the enter. Then the mobile upp project will start automatically
+Select "Blank" and press the enter. Then the mobile setup project will start automatically
 > Choose a template:
 > blank               a minimal app as clean as an empty canvas
 
